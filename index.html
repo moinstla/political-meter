@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Political Belief Meter</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Political Belief Meter</h1>
+      <h4>Rate each statement from 1-5 with how strongly you agree, 1 being heavily disagree and 5 being heavily agree.</h4>
+      <form>
+        <div class="form-group">
+          <label for="prayer">I think prayer should be taught in schools</label>
+          <select id="prayer">
+            <option>Select</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="taxes">I oppose income taxes</label>
+          <select id="taxes">
+            <option>Select</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="marriage">I believe marriage should only be between a man and a woman</label>
+          <select id="marriage">
+            <option>Select</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="abortion">Abortion should be illegal</label>
+          <select id="abortion">
+            <option>Select</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="immigration">I support strict immigration policies</label>
+          <select id="immigration">
+            <option>Select</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <button type="submit" class="btn-info btn">Submit</button>
+      </form>
+      <div id="output">
+        <h1>Your political beliefs are: <span id="result"></span></h1>
+      </div>
+    </div>
+  </body>
+</html>
